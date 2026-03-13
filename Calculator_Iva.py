@@ -1,9 +1,14 @@
+##This is the program for calculating the Iva and the total price, including Iva based on the prices entered as codes##
+
+
+
+
 #here,we enter the customer's details and the value of their order#
 client_name=input("please,enter the client name: ")
 
 bill=int(input("enter total bill amount:"))
 
-#here,we determine the range of values applicable to IVA#
+#here,in this script,we determine the range of values applicable to IVA#
 Iva=float(input("enter the aplicable Iva: "))*bill
 
 charge_range=int(input("enter the value to which IVA will be applied: "))
